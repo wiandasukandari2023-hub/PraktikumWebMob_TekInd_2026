@@ -1,0 +1,2 @@
+# PraktikumWebMob_TekInd_2026
+Wianda Sukandari_23051430002_Mata kuliah Aplikasi Website dan Mobile
