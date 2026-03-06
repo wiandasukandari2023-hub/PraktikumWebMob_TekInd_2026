@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Latihan Praktikum 4 - Wianda Sukandari</title>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">TekInd Payroll System</span>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+
+        <h1>Dashboard Gaji Karyawan</h1>
+        <h4>Dibuat oleh : Wianda Sukandari (23051430002)</h4>
+        <p>Sistem sederhana menghitung gaji + lembur</p>
+
+        <hr>
+
+        <!-- CARD DASHBOARD -->
+        <div class="row mb-4">
+
+            <div class="col-md-3">
+                <div class="card text-white bg-primary">
+                    <div class="card-header">Gaji Pokok</div>
+                    <div class="card-body">
+                        <h4 id="gajiPokok">Rp -</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card text-white bg-success">
+                    <div class="card-header">Jam Lembur</div>
+                    <div class="card-body">
+                        <h4 id="jamLembur">-</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card text-white bg-warning">
+                    <div class="card-header">Total Lembur</div>
+                    <div class="card-body">
+                        <h4 id="totalLembur">Rp -</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card text-white bg-dark">
+                    <div class="card-header">Total Gaji</div>
+                    <div class="card-body">
+                        <h4 id="totalGaji">Rp -</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- INFORMASI KARYAWAN -->
+        <h4>Informasi Karyawan</h4>
+
+        <table class="table table-bordered">
+
+            <tr>
+                <td>ID Karyawan</td>
+                <td>EMP001</td>
+            </tr>
+
+            <tr>
+                <td>Nama</td>
+                <td>Andi Pratama</td>
+            </tr>
+
+            <tr>
+                <td>Departemen</td>
+                <td>Produksi</td>
+            </tr>
+
+            <tr>
+                <td>Status</td>
+                <td><span class="badge bg-success">Aktif</span></td>
+            </tr>
+        </table>
+
+        <hr>
+        <!-- RIWAYAT LEMBUR -->
+        <h4>Riwayat Lembur</h4>
+
+        <table class="table table-striped">
+
+            <thead class="table-dark">
+                <tr>
+                    <th>Tanggal</th>
+                    <th>Jam</th>
+                    <th>Keterangan</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>10 Mei</td>
+                    <td>3 Jam</td>
+                    <td>Lembur produksi</td>
+                </tr>
+
+                <tr>
+                    <td>15 Mei</td>
+                    <td>4 Jam</td>
+                    <td>Target produksi</td>
+                </tr>
+
+                <tr>
+                    <td>20 Mei</td>
+                    <td>3 Jam</td>
+                    <td>Maintenance mesin</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="latihan2.js"></script>
+
+</body>
+</html>

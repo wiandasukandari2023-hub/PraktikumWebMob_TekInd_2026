@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kalkulator Biaya Produksi</title>
+    <link rel="stylesheet" href="Kalkulator_Biaya_Produksi.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Kalkulator Biaya Produksi</h1>
+
+        <div class="form-box">
+
+            <label>Biaya Bahan Baku</label>
+            <input type="number" id="bahanBaku" placeholder="Masukkan biaya bahan baku">
+
+            <label>Biaya Tenaga Kerja</label>
+            <input type="number" id="tenagaKerja" placeholder="Masukkan biaya tenaga kerja">
+
+            <label>Biaya Overhead</label>
+            <input type="number" id="overhead" placeholder="Masukkan biaya overhead">
+
+            <label>Jumlah Produksi</label>
+            <input type="number" id="jumlahProduksi" placeholder="Masukkan jumlah produksi">
+
+            <button onclick="hitungBiaya()">Hitung Biaya</button>
+
+        </div>
+
+        <div class="hasil-box">
+            <p id="hasilBiaya"></p>
+            <p id="kategoriBiaya"></p>
+        </div>
+
+    </div>
+
+    <script src="Kalkulator_Biaya_Produksi.js"></script>
+
+</body>
+
+</html>
