@@ -1,0 +1,84 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #ffd6e7, #ffe9f3);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* HEADER */
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-size: 28px;
+    color: #ff4fa3;
+    margin-bottom: 8px;
+}
+
+.header p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* CARD */
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 18px;
+    width: 320px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* JUDUL CARD */
+.card h2 {
+    color: #ff4fa3;
+    margin-bottom: 20px;
+}
+
+/* INPUT */
+.input-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 14px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid #ffc0da;
+}
+
+input:focus {
+    outline: none;
+    border-color: #ff4fa3;
+}
+
+/* HASIL */
+#hasil {
+    margin-top: 20px;
+    padding: 15px;
+    background: #fff0f7;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ff4fa3;
+    white-space: pre-line;
+}
